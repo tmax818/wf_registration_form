@@ -1,5 +1,7 @@
 # wf_registration_form
 
+## solution branch
+
 ## Objectives
 - Practice recreating the staple of many websites, a Registration Form
 - Practice using `form`, `input`, `select` and `textarea`
