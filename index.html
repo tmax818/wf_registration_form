@@ -9,30 +9,60 @@
 <form action="" method="get">
     <div>
 <label for="">First Name *</label>
-<input type="text" name="first_name" id="">
+<input type="text" name="first_name" id="fn">
     </div>
     <div>
 <label for="">Last Name *</label>
-<input type="text" name="last_name" id="">
+<input type="text" name="last_name" id="ln">
     </div>
     <div>
 <label for="">Email Address *</label>
-<input type="email" name="email" id="">
+<input type="email" name="email" id="em">
     </div>
     <div>
 <label for="">Password *</label>
-<input type="password" name="password" id="">
+<input type="password" name="password" id="pw">
     </div>
     <div>
 <label for="">Confirm Password *</label>
-<input type="password" name="confirm_password" id="">
+<input type="password" name="confirm_password" id="pwc">
     </div>
     <div>
 <label for="">Birthday *</label>
 <input type="date" name="birthday" id="">
     </div>
     <div>
-        <input type="radio" name="gender" id="">
+        <!-- name creates the radio-->
+        <!-- id/for creates the click-->
+        <h2>Gender Identity</h2>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="nb">
+        <label for="nb">Non-binary</label>
+        <input type="radio" name="gender" id="ny">
+        <label for="ny">I prefer not to answer</label>
+    </div>
+    <br>
+    <div>
+        <label for="description">A short description about myself</label>
+        <textarea name="description" id="description" cols="30" rows="5"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="fav_language">Favorite Language: </label><select name="fav_language" id="fav_language">
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C">C</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="accept" id="accept" checked>
+        <label for="accept">Yes, I would like to receive periodic email updates</label>
+
     </div>
 
     <p>
